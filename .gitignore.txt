@@ -1,0 +1,25 @@
+# Entornos virtuales
+venv/
+.env
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datos raw o snapshots (no versionar datos pesados)
+data/snapshots/
+data/raw/
+
+# Configuraciones de IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
